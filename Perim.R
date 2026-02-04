@@ -20,6 +20,6 @@ AreaTrapecio <- function(b, B, H){
   return((B+b/2)*h)
 =======
 PerimetroRectangulo <- function(b,h) {
-  return(2*b+2*h)
+  return(2*(b+h))
 >>>>>>> Rama2
 }
