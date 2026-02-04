@@ -1,3 +1,4 @@
+pi <- 3.14159
 PerimetroCuadrado <- function(L) {
   return(4*L)
 }
@@ -12,4 +13,8 @@ AreaRectangulo <- function(b,h) {
 
 LogitudCirc <- function(r) {
   return(2*pi*r)
+}
+
+PerimetroRectangulo <- function(b,h) {
+  return(2*b+2*h)
 }
