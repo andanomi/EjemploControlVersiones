@@ -9,3 +9,7 @@ AreaTriangulo <- function(b,h) {
 AreaRectangulo <- function(b,h) {
   return(b*h)
 }
+
+LogitudCirc <- function(r) {
+  return(2*pi*r)
+}
