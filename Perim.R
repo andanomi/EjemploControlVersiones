@@ -1,3 +1,4 @@
+pi <- 3.14159
 PerimetroCuadrado <- function(L) {
   return(4*L)
 }
@@ -14,6 +15,11 @@ LogitudCirc <- function(r) {
   return(2*pi*r)
 }
 
+<<<<<<< HEAD
 AreaTrapecio <- function(b, B, H){
   return((B+b/2)*h)
+=======
+PerimetroRectangulo <- function(b,h) {
+  return(2*b+2*h)
+>>>>>>> Rama2
 }
